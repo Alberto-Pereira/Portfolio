@@ -1,0 +1,44 @@
+.custom-bg-color{
+    background-color: #6cc3d5;
+}
+
+.custom-image-size{
+    width: 75%;
+    align-self: center;
+}
+
+.custom-color{
+    color: black;
+}
+
+.btn{
+    margin-left: 0.3vw;
+    padding: 0.2rem 0.2rem;
+}
+
+.custom-text-start{
+    text-align: start !important;
+}
+
+@media (min-width: 768px){
+    .custom-justify-text{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.custom-image-color{
+    filter: brightness(0);
+}
+
+.icon-margin{
+    margin-left: 1vw;
+}
+
+.column-1-color{
+    background-color: #6cc3d5;
+}
+
+.column-2-color{
+    background-color: #A2CDD6;
+}
