@@ -35,13 +35,14 @@ class Home extends React.Component{
                         </div>
                         <br/>
                         <h3 className="custom-color text-start">| Tecnologias:</h3>
-                        <div className="d-flex text-center flex-wrap ">
-                            <div className="flex-fill"></div>
-                            <div className="flex-fill"></div>
-                            <div className="flex-fill"></div>
+                        <div className="d-flex flex-wrap ">
                             <div className="flex-fill">
-                                <Java/>
-                                <h5 className="custom-color p-2 order-1">Java</h5>
+                                <div className="align-self-center">
+                                    <Java/>
+                                    <h5 className="custom-color p-2 order-1">Java</h5>
+                                </div>
+                                
+                                
                             </div>
                             <div className="flex-fill">
                                 <Spring/>
@@ -59,9 +60,6 @@ class Home extends React.Component{
                                 <Postgre/>
                                 <h5 className="custom-color p-2 order-5">PostgreSQL</h5>
                             </div>
-                            <div className="flex-fill"></div>
-                            <div className="flex-fill"></div>
-                            <div className="flex-fill"></div>
                         </div>
                         <br/>
                         <h3 className="custom-color">| Certificações:</h3>

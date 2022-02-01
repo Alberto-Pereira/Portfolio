@@ -1,6 +1,6 @@
 import Home from './views/home';
 
-import Navbar from "../../portfolio/src/components/navbar";
+import Navbar from "../../Portfolio/src/components/navbar";
 
 function App() {
   return (
