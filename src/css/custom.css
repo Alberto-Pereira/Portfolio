@@ -2,11 +2,6 @@
     background-color: #6cc3d5;
 }
 
-.custom-image-size{
-    width: 75%;
-    align-self: center;
-}
-
 .custom-color{
     color: black;
 }
@@ -42,3 +37,4 @@
 .column-2-color{
     background-color: #A2CDD6;
 }
+

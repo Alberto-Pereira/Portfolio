@@ -10,9 +10,11 @@ class Home extends React.Component{
         return(
             <div className="container-fluid custom-bg-color">
                 <div className="row align-items-center min-vh-100">
-                    <div className="col-md-3">
+                    <div className="col-lg-3">
                         <div className="d-flex flex-column align-items-center text-justify">
-                            <img src={baby_yoda} className="img-thumbnail rounded-circle w-75"/>
+                            <img src={baby_yoda} 
+                                 width="288" height="288" 
+                                 className="img-thumbnail rounded-circle mt-5 mt-lg-0" alt=""/>
                             <br/>
                             <h4 className="custom-color">Alberto Pereira Felisberto</h4>
                             <h2 className="custom-color">Programador FullStack</h2>
@@ -27,7 +29,7 @@ class Home extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-9 p-3">
+                    <div className="col-lg-9 p-3">
                         <h3 className="custom-color">| Sobre:</h3>
                         <div className="d-flex flex-column align-items-center">
                             <h5 className="custom-color custom-justify-text">Formado em Análise e Desenvolvimento de Sistemas pela PUC-GO. Realizei diversos projetos acadêmicos com foco em MVC e CRUD, utilizando a linguagem Java e 
@@ -35,31 +37,12 @@ class Home extends React.Component{
                         </div>
                         <br/>
                         <h3 className="custom-color text-start">| Tecnologias:</h3>
-                        <div className="d-flex flex-wrap ">
-                            <div className="flex-fill">
-                                <div className="align-self-center">
-                                    <Java/>
-                                    <h5 className="custom-color p-2 order-1">Java</h5>
-                                </div>
-                                
-                                
-                            </div>
-                            <div className="flex-fill">
-                                <Spring/>
-                                <h5 className="custom-color p-2 order-2">Spring Boot</h5>
-                            </div>
-                            <div className="flex-fill">
-                                <ReactIcon/>
-                                <h5 className="custom-color p-2 order-3">React JS</h5>
-                            </div>
-                            <div className="flex-fill">
-                                <Bootstrap/>
-                                <h5 className="custom-color p-2 order-4">Bootstrap</h5>
-                            </div>
-                            <div className="flex-fill">
-                                <Postgre/>
-                                <h5 className="custom-color p-2 order-5">PostgreSQL</h5>
-                            </div>
+                        <div className="d-flex flex-md-row flex-column justify-content-evenly align-items-center text-center">
+                            <Java/>
+                            <Spring/>
+                            <ReactIcon/>
+                            <Bootstrap/>
+                            <Postgre/>
                         </div>
                         <br/>
                         <h3 className="custom-color">| Certificações:</h3>
