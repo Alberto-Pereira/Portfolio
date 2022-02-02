@@ -14,7 +14,7 @@ class Home extends React.Component{
                         <div className="d-flex flex-column align-items-center text-justify">
                             <img src={baby_yoda} 
                                  width="288" height="288" 
-                                 className="img-thumbnail rounded-circle mt-5 mt-lg-0" alt=""/>
+                                 className="img-thumbnail rounded-circle custom-image-margin" alt=""/>
                             <br/>
                             <h4 className="custom-color">Alberto Pereira Felisberto</h4>
                             <h2 className="custom-color">Programador FullStack</h2>
@@ -37,7 +37,7 @@ class Home extends React.Component{
                         </div>
                         <br/>
                         <h3 className="custom-color text-start">| Tecnologias:</h3>
-                        <div className="d-flex flex-md-row flex-column justify-content-evenly align-items-center text-center">
+                        <div className="d-flex flex-md-row flex-column justify-content-evenly align-items-center text-center tecnology-session">
                             <Java/>
                             <Spring/>
                             <ReactIcon/>
