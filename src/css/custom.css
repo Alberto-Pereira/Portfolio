@@ -2,6 +2,16 @@
     background-color: #6cc3d5;
 }
 
+.custom-nav-color{
+    background-color: #6cc3d5;
+}
+
+@media(min-width: 0) and (max-width: 425px){
+    .custom-nav-color{
+        background-color: #5fadbd;
+    } 
+}
+
 .custom-color{
     color: black;
 }
@@ -47,10 +57,16 @@
 
 @media(min-width: 0) and (max-width: 768px){
     .custom-image-margin{
-        margin-top: 3.5rem !important;
+        margin-top: 3.8rem !important;
     }
 }
 
 .custom-dropdown-menu-width{
     min-width: 0;
+}
+
+@media(min-width: 0) and (max-width: 425px){
+    .custom-button-menu-width{
+        min-width: 100%;
+    }
 }

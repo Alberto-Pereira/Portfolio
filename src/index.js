@@ -5,6 +5,7 @@ import App from './App';
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 import "bootswatch/dist/minty/bootstrap.min.css";
 import "../src/css/custom.css"
+import "../src/css/dark-theme.css"
 
 
 ReactDOM.render(
