@@ -62,11 +62,11 @@
 }
 
 .custom-dropdown-menu-width{
-    min-width: 0;
+    min-width: 100%;
 }
 
 @media(min-width: 0) and (max-width: 425px){
     .custom-button-menu-width{
-        min-width: 100%;
+        min-width: 99%;
     }
 }
