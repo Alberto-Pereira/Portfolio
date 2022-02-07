@@ -70,3 +70,19 @@
         min-width: 99%;
     }
 }
+
+.custom-card-header-text{
+    margin-bottom: 0 !important; 
+}
+
+.custom-contact-section-btn {
+    color: #fff;
+    background-color: #6cc3d5;
+    border-color: #6cc3d5;
+  }
+  
+.custom-contact-section-btn:hover {
+    color: #fff;
+    background-color: #61afbe;
+    border-color: #61afbe;
+}
