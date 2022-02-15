@@ -18,4 +18,4 @@ Website construído com React JS e Bootstrap para apresentar meus trabalhos conc
 
 ## 🔗 Acessar <a name="link"></a>
 
-<a href="google.com" >Clique aqui para acessar</a>
+<a href="https://portfolio-alberto-pereira.herokuapp.com/" >Clique aqui para acessar</a>
