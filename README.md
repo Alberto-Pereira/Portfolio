@@ -12,7 +12,7 @@ Website construído com React JS e Bootstrap para apresentar meus trabalhos conc
 
 ## 🏛 Estrutura <a name="pattern"></a>
 
-✨ Front-End:
+- Front-End:
     - React JS
     - Bootstrap
 
