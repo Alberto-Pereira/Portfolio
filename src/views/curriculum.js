@@ -19,7 +19,10 @@ class Curriculum extends React.Component{
                                         <div className="row justify-content-center">
                                             <button className="btn custom-contact-section-btn pt-2 pb-2" style={{width:'85%'}}>
                                                 <Download/>
-                                                <span className="custom-text-size-curriculum-section">Português</span>
+                                                <a className="custom-text-size-curriculum-section text-white" 
+                                                   href="https://drive.google.com/file/d/19enxOu0zjdkl_S0y5OZorVCN4MzXIHQZ/view?usp=sharing"
+                                                   style={{textDecoration:'none'}}
+                                                   target="_blank">Português</a>
                                             </button>
                                         </div>
                                     </div>

@@ -103,10 +103,12 @@ class Portfolio extends React.Component{
                                     <h5 className="text-white">&emsp;🎨 Front-End:</h5>
                                     <h5 className="text-white">&emsp;&emsp;&emsp;- React JS</h5>
                                     <h5 className="text-white">&emsp;&emsp;&emsp;- Bootstrap</h5>
-                                    <a href="https://github.com/Alberto-Pereira/Portfolio" style={{textDecoration:'none'}} target="_blank">
+                                    <a href="https://github.com/Alberto-Pereira/Portfolio" style={{textDecoration:'none'}} 
+                                       target="_blank">
                                         <h4 className="text-white mt-4">💼 Github</h4>
                                     </a>                                   
-                                    <a href="https://portfolio-alberto-pereira.herokuapp.com/" style={{textDecoration:'none'}} target="_blank">
+                                    <a href="https://portfolio-alberto-pereira.herokuapp.com/" style={{textDecoration:'none'}} 
+                                       target="_blank">
                                         <h4 className="text-white mt-4">✅ Portfólio</h4>
                                     </a>
                                 </div>
