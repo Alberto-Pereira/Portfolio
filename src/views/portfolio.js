@@ -1,5 +1,6 @@
 import React from "react";
 
+// Capturas de tela das páginas do website
 import Screen_Home from "../img/screen/screen_home.png";
 import Screen_CV from "../img/screen/screen_cv.png";
 import Screen_Contact from "../img/screen/screen_contact.png";
@@ -8,6 +9,9 @@ import Screen_Portfolio from "../img/screen/screen_portfolio.png";
 class Portfolio extends React.Component{
     render(){
         return(
+            /*
+            Container principal
+            */            
             <div className="container-fluid custom-bg-color min-vh-100">
                 <div className="d-flex flex-column">
                     <div className='card text-white bg-secondary custom-portfolio-column-margin'>
@@ -34,7 +38,9 @@ class Portfolio extends React.Component{
                         </div>
                     </div>
                 </div>
-
+                {/* 
+                Modal referente ao Portfolio 
+                */}
                 <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-scrollable modal-fullscreen">
                         <div className="modal-content bg-secondary w-100">
@@ -42,8 +48,13 @@ class Portfolio extends React.Component{
                                 <h4 className="modal-title text-white" id="staticBackdropLabel">Portfólio – Website</h4>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
+                            {/* 
+                            Conteúdo do modal de Portfolio 
+                            */}
                             <div className="modal-body">
-                                
+                                {/*
+                                Galeria de imagens do projeto
+                                */}
                                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner ">
                                         <div class="carousel-item active">
@@ -78,7 +89,9 @@ class Portfolio extends React.Component{
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
-
+                                {/*
+                                Descrição do projeto
+                                */}
                                 <div className="col-10 offset-1 mt-4">
                                     <h4 className="text-white">💻 Sobre:</h4>
                                     <h5 className="text-white text-justify">Website construído com React JS e Bootstrap para apresentar meus 
@@ -112,7 +125,6 @@ class Portfolio extends React.Component{
                                         <h4 className="text-white mt-4">✅ Portfólio</h4>
                                     </a>
                                 </div>
-
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn custom-contact-section-btn" data-bs-dismiss="modal">Fechar</button>
