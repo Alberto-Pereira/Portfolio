@@ -17,21 +17,20 @@ class Curriculum extends React.Component{
                                 <div className="row">
                                     <div className="col-6 border-end border-white" style={{maxHeight:'100%'}}>
                                         <div className="row justify-content-center">
-                                            <button className="btn custom-contact-section-btn pt-2 pb-2" style={{width:'85%'}}>
-                                                <Download/>
-                                                <a className="custom-text-size-curriculum-section text-white" 
-                                                   href="https://drive.google.com/file/d/19enxOu0zjdkl_S0y5OZorVCN4MzXIHQZ/view?usp=sharing"
-                                                   style={{textDecoration:'none'}}
-                                                   target="_blank">Português</a>
-                                            </button>
+                                            <a className="btn custom-contact-section-btn pt-2 pb-2" 
+                                               href="https://drive.google.com/file/d/19enxOu0zjdkl_S0y5OZorVCN4MzXIHQZ/view?usp=sharing" 
+                                               role="button" style={{width:'85%'}} target="_blank" rel="noreferrer">
+                                                <Download/>Português
+                                            </a>
                                         </div>
                                     </div>
                                     <div className="col-6">
                                         <div className="row justify-content-center">
-                                            <button className="btn custom-contact-section-btn pt-2 pb-2" style={{width:'85%'}}>
-                                                <Download/>
-                                                Inglês
-                                            </button>
+                                            <a className="btn custom-contact-section-btn pt-2 pb-2" 
+                                               href="https://drive.google.com/file/d/1D2on-gP8hB_9fHb-ZluuJXizq8ak8I0W/view?usp=sharing" 
+                                               role="button" style={{width:'85%'}} target="_blank" rel="noreferrer">
+                                                <Download/>Inglês
+                                            </a>
                                         </div>
                                     </div>
                                 </div>    
