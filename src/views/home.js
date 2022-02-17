@@ -3,7 +3,7 @@ import React from "react";
 import {Github, Linkedin, Java, Spring, ReactIcon, Bootstrap, Postgre} from "../components/icons";
 import baby_yoda from "../img/baby_yoda.jpg"
 
-
+import { Helmet } from 'react-helmet';
 
 class Home extends React.Component{
     render(){
