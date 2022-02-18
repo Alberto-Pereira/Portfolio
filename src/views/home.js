@@ -18,7 +18,7 @@ class Home extends React.Component{
                             <h2 className="custom-color">Programador FullStack</h2>
                             <br/>
                             <div>
-                                <a type="button" className="btn btn-light" title="Linkedin" role="button"
+                                <a type="button" className="btn btn-light me-1 me-lg-0" title="Linkedin" role="button"
                                    href="https://www.linkedin.com/in/alberto-pereira-felisberto/" target="_blank" rel="noreferrer">
                                    <Linkedin/>
                                 </a>
@@ -54,7 +54,7 @@ class Home extends React.Component{
                         <br/>
                         <br/>
                         <div className="d-flex text-center">
-                            <div className="flex-fill">
+                            <div className="flex-fill ">
                                 <h3 className="custom-color">"Com grandes poderes, vêm grandes responsabilidades"</h3>
                                 <h4 className="custom-color">- Ben Parker</h4>
                             </div>

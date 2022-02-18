@@ -124,3 +124,23 @@
         display: none;
     }
 }
+
+/* Home */
+.custom-quote-margin{
+    padding-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+/* Portfolio */
+@media(min-width: 0) and (max-width: 760px){
+    .custom-btn-size{
+        width: 100%;
+    }
+}
+
+@media(min-width: 761px){
+    .custom-btn-size{
+        width: 20%; 
+    }
+}
+

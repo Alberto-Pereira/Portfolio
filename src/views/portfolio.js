@@ -18,7 +18,7 @@ class Portfolio extends React.Component{
                         <div className='card-header'>
                             <h4 className='custom-card-header-text'>Portfólio – Website</h4>
                         </div>
-                        <div className='card-body'>
+                        <div className='card-body pb-1 pb-md-2'>
                             <div className="flex-row">
                                 <img src="https://cdn-icons-png.flaticon.com/512/4100/4100367.png" width="96px" height="96px"
                                      className="float-start me-2"/>
@@ -27,11 +27,11 @@ class Portfolio extends React.Component{
                                         <h4 className="float-start">Jan 2022 – Presente</h4>
                                         <h5 className="float-start custom-justify-text">Website contendo meus projetos.</h5>
                                     </div>
-                                    <div className="row justify-content-end">
-                                        <button className="btn custom-contact-section-btn" 
+                                    <div className="row-md justify-content-end">
+                                        <button className="btn custom-contact-section-btn custom-btn-size float-end" 
                                                 data-bs-toggle="modal" 
-                                                data-bs-target="#staticBackdrop"
-                                                style={{width:'20%'}}>Saiba mais</button>
+                                                data-bs-target="#staticBackdrop">Saiba mais
+                                        </button>
                                     </div>                                    
                                 </div>
                             </div>                            
