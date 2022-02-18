@@ -118,3 +118,9 @@
 .toast-success {
     background-color: #6CC3D5;
 }
+
+@media(min-width: 0) and (max-width: 760px){
+    .collapse:not(.show) {
+        display: none;
+    }
+}

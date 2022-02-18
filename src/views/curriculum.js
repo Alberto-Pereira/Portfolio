@@ -19,7 +19,8 @@ class Curriculum extends React.Component{
                                         <div className="row justify-content-center">
                                             <a className="btn custom-contact-section-btn pt-2 pb-2" 
                                                href="https://drive.google.com/file/d/19enxOu0zjdkl_S0y5OZorVCN4MzXIHQZ/view?usp=sharing" 
-                                               role="button" style={{width:'85%'}} target="_blank" rel="noreferrer">
+                                               role="button" style={{width:'85%'}} target="_blank" rel="noreferrer" 
+                                               title="Baixar em Português">
                                                 <Download/>Português
                                             </a>
                                         </div>
@@ -28,7 +29,8 @@ class Curriculum extends React.Component{
                                         <div className="row justify-content-center">
                                             <a className="btn custom-contact-section-btn pt-2 pb-2" 
                                                href="https://drive.google.com/file/d/1D2on-gP8hB_9fHb-ZluuJXizq8ak8I0W/view?usp=sharing" 
-                                               role="button" style={{width:'85%'}} target="_blank" rel="noreferrer">
+                                               role="button" style={{width:'85%'}} target="_blank" rel="noreferrer"
+                                               title="Baixar em Inglês">
                                                 <Download/>Inglês
                                             </a>
                                         </div>

@@ -3,8 +3,6 @@ import React from "react";
 import {Github, Linkedin, Java, Spring, ReactIcon, Bootstrap, Postgre} from "../components/icons";
 import baby_yoda from "../img/baby_yoda.jpg"
 
-import { Helmet } from 'react-helmet';
-
 class Home extends React.Component{
     render(){
         return(
@@ -20,12 +18,14 @@ class Home extends React.Component{
                             <h2 className="custom-color">Programador FullStack</h2>
                             <br/>
                             <div>
-                                <button type="button" className="btn btn-light" title="Linkedin">
+                                <a type="button" className="btn btn-light" title="Linkedin" role="button"
+                                   href="https://www.linkedin.com/in/alberto-pereira-felisberto/" target="_blank" rel="noreferrer">
                                    <Linkedin/>
-                                </button>
-                                <button type="button" className="btn btn-light" title="Github">
+                                </a>
+                                <a type="button" className="btn btn-light" title="Github" role="button"
+                                   href="https://github.com/Alberto-Pereira" target="_blank" rel="noreferrer">
                                     <Github/>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
