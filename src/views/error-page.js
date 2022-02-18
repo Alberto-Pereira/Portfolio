@@ -1,12 +1,12 @@
 import React from "react";
 
-class ErrorPage extends React.Component(){
+class ErrorPage extends React.Component{
     render(){
         return(
             <div className="container-fluid custom-bg-color min">
-                <div className="row align-items-center min-vh-100">
-                    <div className="col custom-portfolio-column-margin">
-                        <h1>Essa página não existe!</h1>
+                <div className="row min-vh-100">
+                    <div className="d-flex justify-content-center align-items-center">
+                        <h1 className="text-white">Essa página não existe!</h1>
                     </div>
                 </div>
             </div>
