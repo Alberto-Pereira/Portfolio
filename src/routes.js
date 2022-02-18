@@ -6,6 +6,7 @@ import Home from "./views/home";
 import Portfolio from "./views/portfolio";
 import Curriculum from "./views/curriculum";
 import Contact from "./views/contact";
+import ErrorPage from './views/error-page'; 
 
 function RoutesNavigation(){
     return(

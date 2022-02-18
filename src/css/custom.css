@@ -114,3 +114,7 @@
 .custom-portfolio-card-2:hover{
     background-color: #e48d92;
 }
+
+.toast-success {
+    background-color: #6CC3D5;
+}
