@@ -33,11 +33,7 @@
 }
 
 .custom-image-color{
-    filter: brightness(0);
-}
-
-.custom-image-color-white{
-    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(15deg) brightness(95%) contrast(102%)
+    filter: brightness(0%);
 }
 
 .icon-margin{
@@ -54,8 +50,8 @@
 
 @media(min-width: 1600px){
     .tecnology-session{
-        margin-left: 16rem !important;
-        margin-right: 16rem !important;
+        margin-left: 8rem !important;
+        margin-right: 8rem !important;
     }
 }
 
@@ -131,6 +127,15 @@
     margin-bottom: 4rem;
 }
 
+.custom-first-letter::first-letter{
+    color: #F8D210;
+}
+
+.custom-title-color{
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
 /* Portfolio */
 @media(min-width: 0) and (max-width: 760px){
     .custom-btn-size{
@@ -144,3 +149,11 @@
     }
 }
 
+/* Icons */
+.custom-spring-icon-color{
+    filter: invert();
+}
+
+.custom-text-color{
+    color: black !important;
+}

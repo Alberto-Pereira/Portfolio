@@ -30,7 +30,7 @@ class Home extends React.Component{
                         </div>
                     </div>
                     <div className="col-lg-9 p-3">
-                        <h3 className="custom-color">| Sobre:</h3>
+                        <h3 className="custom-title-color">| Sobre:</h3>
                         <div className="d-flex flex-column align-items-center">
                             <h5 className="custom-color custom-justify-text">Formado em Análise e Desenvolvimento de Sistemas pela PUC-GO. Realizei diversos projetos acadêmicos com foco em MVC e CRUD, utilizando a linguagem Java e 
                                 seus principais frameworks. No momento me aprofundo em Spring Boot e React JS.</h5>

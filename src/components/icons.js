@@ -1,5 +1,7 @@
 import download_icon from '../img/icons/download_icon.png'
 
+import BootstrapIcon from "../img/icons/bootstrap-icon.svg"
+
 export function Github(){
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-github custom-image-color" viewBox="0 0 16 16">
@@ -19,13 +21,13 @@ export function Linkedin(){
 export function Java(){
     return(
         <div className="row">
-            <div className="row g-0">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" 
+            <div className="row g-0 ">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"
                     width="80" height="80" 
                     className="custom-image-color" alt=""/>
-            </div> 
+            </div>
             <div className="row g-0">
-                <h5 className="custom-color mt-1">Java</h5>
+                <h5 className="">Java</h5>
             </div>
         </div>
     )
@@ -36,11 +38,11 @@ export function Spring(){
         <div className="row">
             <div className="row g-0">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain.svg" 
-                    width="80" height="80" 
-                    className="custom-image-color" alt=""/>
+                    height="80" 
+                    className="" alt=""/>
             </div> 
             <div className="row g-0">
-                <h5 className="custom-color mt-1">Spring Boot</h5>
+                <h5 className="">Spring Boot</h5>
             </div>
         </div>
     )
@@ -65,7 +67,7 @@ export function Bootstrap(){
     return(
         <div className="row">
             <div className="row g-0">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" 
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
                     width="80" height="80" 
                     className="custom-image-color" alt=""/>
             </div> 
