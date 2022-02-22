@@ -9,7 +9,7 @@ class Curriculum extends React.Component{
                 <div className="row">
                     <div className="col-md-8 col-lg-4 offset-md-2 offset-lg-4">
                         <div className="d-flex flex-column align-items-center justify-content-center min-vh-100">
-                            <div className="card text-white bg-secondary" style={{width:'100%'}}>
+                            <div className="card text-white bg-secondary scale-up-center-other-pages" style={{width:'100%'}}>
                                 <div className="card-header">
                                     <h4 className='custom-card-header-text text-center'>Currículo</h4>
                                 </div>

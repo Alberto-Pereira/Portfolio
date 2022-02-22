@@ -9,10 +9,10 @@ class Home2 extends React.Component{
             <div className="container-fluid custom-bg-color">
                 <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                     <div className="col-md-10">
-                        <div className="card bg-secondary">
+                        <div className="card bg-secondary scale-up-center">
                             <div className="card-body mt-1 mb-1">
                                 <div className="row">
-                                    <div className="d-flex flex-column col-md-4 align-items-center ">
+                                    <div className="d-flex flex-column col-md-4 align-items-center scale-up-center-content">
                                         <img src={baby_yoda} width="288" height="288" 
                                             className="img-thumbnail rounded-circle custom-image-margin mt-4" alt="Imagem de perfil" 
                                             title="Imagem de perfil">
@@ -32,7 +32,7 @@ class Home2 extends React.Component{
                                             </a>
                                         </div>
                                     </div>
-                                    <div className="col-md-8 border-start border-4 rounded-3 border-white">
+                                    <div className="col-md-8 border-start border-4 rounded-3 border-white scale-up-center-content">
                                         <h3 className="custom-title-color">Sobre:</h3>
                                         <div className="d-flex flex-column align-items-center">
                                             <h5 className="custom-color custom-justify-text text-white ps-3 pe-3">Formado em Análise e Desenvolvimento de 
