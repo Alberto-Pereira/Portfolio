@@ -2,11 +2,15 @@ import { Moon, Language } from "./icons"
 
 import { useNavigate } from "react-router-dom"
 
+import DarkTheme from "../components/dark-theme"
+
 export default function Navbar() {
     let navigate = useNavigate();
 
     return (
-        <nav className="navbar navbar-expand-md fixed-top navbar-dark custom-nav-color">
+        <nav className={localStorage.getItem("theme") === "dark" ? 
+            "navbar navbar-expand-md fixed-top navbar-dark custom-nav-color darkMode" : 
+            "navbar navbar-expand-md fixed-top navbar-dark custom-nav-color custom-bg-color"}>
             <div className="container-fluid">
                 {/* Botão Home no canto esquerdo */}
                 <button className="btn btn-secondary me-1 p-1 mt-md-0 navbar-brand" 
@@ -38,11 +42,11 @@ export default function Navbar() {
                             <ul className="dropdown-menu custom-dropdown-menu-width" aria-labelledby="dropdownMenuButton1">
                                 <li><a className="dropdown-item" href="#"
                                        data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} 
-                                       data-bs-target="#mynavbar">Escuro</a>
+                                       data-bs-target="#mynavbar" onClick={e => DarkTheme("dark")}>Escuro</a>
                                 </li>
                                 <li><a className="dropdown-item" href="#"
                                        data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} 
-                                       data-bs-target="#mynavbar">Claro</a>
+                                       data-bs-target="#mynavbar" onClick={e => DarkTheme("light")}>Claro</a>
                                 </li>
                             </ul>
                         </div>

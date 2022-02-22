@@ -63,7 +63,7 @@ class Contact extends React.Component{
 
     render(){
         return(
-            <div className='container-fluid custom-bg-color'>
+            <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-md-8 col-lg-4 offset-md-2 offset-lg-4'>
                         <div className='d-flex flex-column align-content-center justify-content-center min-vh-100'>

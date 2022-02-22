@@ -9,22 +9,23 @@ import Curriculum from "./views/curriculum";
 import Contact from "./views/contact";
 import ErrorPage from "./views/error-page";
 
-
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <DevIcons/>
-      <Navbar/>
-      <Routes>
-          <Route path="/" index element={<Home/>}/>
-          <Route path="/portfolio" element={<Portfolio/>}/>
-          <Route path="/cv" element={<Curriculum/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="*" element={<ErrorPage/>}/>
-      </Routes>
+      
+      <div className={localStorage.getItem("theme") === "dark" ? "darkMode" : "custom-bg-color"}>
+        <Navbar/>
+        <Routes>
+            <Route path="/" index element={<Home/>}/>
+            <Route path="/portfolio" element={<Portfolio/>}/>
+            <Route path="/cv" element={<Curriculum/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="*" element={<ErrorPage/>}/>
+        </Routes>
+      </div>
     </BrowserRouter>
     );
 }

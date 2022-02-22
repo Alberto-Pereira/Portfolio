@@ -5,7 +5,7 @@ import {Download} from '../components/icons'
 class Curriculum extends React.Component{
     render(){
         return(
-            <div className="container-fluid custom-bg-color">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-8 col-lg-4 offset-md-2 offset-lg-4">
                         <div className="d-flex flex-column align-items-center justify-content-center min-vh-100">

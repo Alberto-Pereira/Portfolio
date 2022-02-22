@@ -3,10 +3,12 @@ import React from "react";
 import {Github, Linkedin, Java, Spring, ReactIcon, Bootstrap, Postgre} from "../components/icons";
 import baby_yoda from "../img/baby_yoda.jpg"
 
+import DarkTheme from "../components/dark-theme";
+
 class Home2 extends React.Component{
     render(){
         return(
-            <div className="container-fluid custom-bg-color">
+            <div className="container-fluid">
                 <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                     <div className="col-md-10">
                         <div className="card bg-secondary scale-up-center">
@@ -28,7 +30,7 @@ class Home2 extends React.Component{
                                             <a type="button" className="btn btn-light" title="Github" role="button" 
                                             alt="Botão com link de acesso ao github."
                                             href="https://github.com/Alberto-Pereira" target="_blank" rel="noreferrer">
-                                                <Github/>
+                                            <Github/>
                                             </a>
                                         </div>
                                     </div>
