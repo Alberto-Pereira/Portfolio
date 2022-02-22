@@ -8,7 +8,7 @@ import Portfolio from "./views/portfolio";
 import Curriculum from "./views/curriculum";
 import Contact from "./views/contact";
 import ErrorPage from "./views/error-page";
-import Home2 from "./views/home-2";
+
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -19,7 +19,7 @@ function App() {
       <DevIcons/>
       <Navbar/>
       <Routes>
-          <Route path="/" index element={<Home2/>}/>
+          <Route path="/" index element={<Home/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="/cv" element={<Curriculum/>}/>
           <Route path="/contact" element={<Contact/>}/>
