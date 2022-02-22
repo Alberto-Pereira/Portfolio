@@ -114,14 +114,14 @@ class Portfolio extends React.Component{
                                     <h5 className="text-white">&emsp;&emsp;&emsp;Botão para escolher os idiomas do website. 
                                             Português e inglês estão disponíveis.</h5>
                                     <h5 className="text-white">&emsp;🎨 Front-End:</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;- React JS</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;- Bootstrap</h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;- React JS.</h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;- Bootstrap.</h5>
                                     <a href="https://github.com/Alberto-Pereira/Portfolio" style={{textDecoration:'none'}} 
-                                       target="_blank">
+                                       target="_blank" title="Clique para acessar" alt="Link de acesso ao projeto no github">
                                         <h4 className="text-white mt-4">💼 Github</h4>
                                     </a>                                   
                                     <a href="https://portfolio-alberto-pereira.herokuapp.com/" style={{textDecoration:'none'}} 
-                                       target="_blank">
+                                       target="_blank" title="Clique para acessar" alt="Link de acesso ao projeto no heroku. Você pode testar a aplicação online.">
                                         <h4 className="text-white mt-4">✅ Portfólio</h4>
                                     </a>
                                 </div>

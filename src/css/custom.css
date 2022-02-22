@@ -50,8 +50,8 @@
 
 @media(min-width: 1600px){
     .tecnology-session{
-        margin-left: 8rem !important;
-        margin-right: 8rem !important;
+        margin-left: 5rem !important;
+        margin-right: 5rem !important;
     }
 }
 
@@ -156,4 +156,5 @@
 
 .custom-text-color{
     color: black !important;
+    border-color: #F3969A !important;
 }

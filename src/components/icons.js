@@ -1,7 +1,5 @@
 import download_icon from '../img/icons/download_icon.png'
 
-import BootstrapIcon from "../img/icons/bootstrap-icon.svg"
-
 export function Github(){
     return(
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-github custom-image-color" viewBox="0 0 16 16">
@@ -20,76 +18,50 @@ export function Linkedin(){
 
 export function Java(){
     return(
-        <div className="row">
-            <div className="row g-0 ">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"
-                    width="80" height="80" 
-                    className="custom-image-color" alt=""/>
-            </div>
-            <div className="row g-0">
-                <h5 className="">Java</h5>
-            </div>
-        </div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"
+             width="80" height="80" 
+             className="custom-image-color" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             alt="Logotipo do Java" title="Java"/>
     )
 }
 
 export function Spring(){
     return(
-        <div className="row">
-            <div className="row g-0">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain.svg" 
-                    height="80" 
-                    className="" alt=""/>
-            </div> 
-            <div className="row g-0">
-                <h5 className="">Spring Boot</h5>
-            </div>
-        </div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain.svg" 
+             width="80" height="80" 
+             className="" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             alt="Logotipo do Spring Boot" title="Spring Boot"/>
+            
     )
 }
 
 export function ReactIcon(){
     return(
-        <div className="row">
-            <div className="row g-0">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
-                    width="80" height="80" 
-                    className="custom-image-color" alt=""/>
-            </div> 
-            <div className="row g-0">
-                <h5 className="custom-color mt-1">React JS</h5>
-            </div>
-        </div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+             width="80" height="80" 
+             className="custom-image-color" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             alt="Logotipo do React JS" title="React JS"/>
+            
     )
 }
 
 export function Bootstrap(){
     return(
-        <div className="row">
-            <div className="row g-0">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
-                    width="80" height="80" 
-                    className="custom-image-color" alt=""/>
-            </div> 
-            <div className="row g-0">
-                <h5 className="custom-color mt-1">Bootstrap</h5>
-            </div>
-        </div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+             width="80" height="80" 
+             className="custom-image-color" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             alt="Logotipo do Bootstrap" title="Bootstrap"/>
+            
     )
 }
 
 export function Postgre(){
     return(
-        <div className="row">
-            <div className="row g-0">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" 
-                    width="80" height="80" 
-                    className="custom-image-color" alt=""/>
-            </div> 
-            <div className="row g-0">
-                <h5 className="custom-color mt-1">PostgreSQL</h5>
-            </div>
-        </div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" 
+             width="80" height="80" 
+             className="custom-image-color" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             alt="Logotipo do Postgre SQL" title="Postgre SQL"/>
+        
     )
 }
 
