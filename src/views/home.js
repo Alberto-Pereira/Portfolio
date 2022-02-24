@@ -1,7 +1,7 @@
 import React from "react";
 
 import {Github, Linkedin, Java, Spring, ReactIcon, Bootstrap, Postgre} from "../components/icons";
-import baby_yoda from "../img/baby_yoda.jpg"
+import pfp from "../img/pfp.png"
 
 import DarkTheme from "../components/dark-theme";
 
@@ -15,7 +15,7 @@ class Home2 extends React.Component{
                             <div className="card-body mt-1 mb-1">
                                 <div className="row">
                                     <div className="d-flex flex-column col-md-4 align-items-center scale-up-center-content">
-                                        <img src={baby_yoda} width="288" height="288" 
+                                        <img src={pfp} width="288" height="288" 
                                             className="img-thumbnail rounded-circle custom-image-margin mt-4" alt="Imagem de perfil" 
                                             title="Imagem de perfil">
                                         </img>
