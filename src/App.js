@@ -15,9 +15,8 @@ function App() {
   return (
     <BrowserRouter>
       <DevIcons/>
-      
+      <Navbar/>
       <div className={localStorage.getItem("theme") === "dark" ? "darkMode" : "custom-bg-color"}>
-        <Navbar/>
         <Routes>
             <Route path="/" index element={<Home/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>

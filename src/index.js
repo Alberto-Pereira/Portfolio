@@ -8,7 +8,7 @@ import "bootswatch/dist/minty/bootstrap.min.css"; // Caso dê problema voltar pa
 import "../src/css/custom.css"
 import "../src/css/dark-theme.css"
 import 'toastr/build/toastr.css'
-
+import "../node_modules/i18next/i18next.js"
 
 
 ReactDOM.render(
