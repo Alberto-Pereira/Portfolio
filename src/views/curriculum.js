@@ -2,6 +2,8 @@ import React from "react";
 
 import {Download} from '../components/icons'
 
+import { Trans } from "react-i18next";
+
 class Curriculum extends React.Component{
     render(){
         return(
@@ -11,7 +13,7 @@ class Curriculum extends React.Component{
                         <div className="d-flex flex-column align-items-center justify-content-center min-vh-100">
                             <div className="card text-white bg-secondary scale-up-center-other-pages" style={{width:'100%'}}>
                                 <div className="card-header">
-                                    <h4 className='custom-card-header-text text-center'>Currículo</h4>
+                                    <h4 className='custom-card-header-text text-center'><Trans i18nKey="curriculo.part1"></Trans></h4>
                                 </div>
                                 <div className="card-body custom-card-body-padding">
                                 <div className="row">
@@ -21,7 +23,7 @@ class Curriculum extends React.Component{
                                                href="https://drive.google.com/file/d/19enxOu0zjdkl_S0y5OZorVCN4MzXIHQZ/view?usp=sharing" 
                                                role="button" style={{width:'85%'}} target="_blank" rel="noreferrer" 
                                                title="Baixar em Português">
-                                                <Download/>Português
+                                                <Download/><Trans i18nKey="curriculo.part2"></Trans>
                                             </a>
                                         </div>
                                     </div>
@@ -31,7 +33,7 @@ class Curriculum extends React.Component{
                                                href="https://drive.google.com/file/d/1D2on-gP8hB_9fHb-ZluuJXizq8ak8I0W/view?usp=sharing" 
                                                role="button" style={{width:'85%'}} target="_blank" rel="noreferrer"
                                                title="Baixar em Inglês">
-                                                <Download/>Inglês
+                                                <Download/><Trans i18nKey="curriculo.part3"></Trans>
                                             </a>
                                         </div>
                                     </div>

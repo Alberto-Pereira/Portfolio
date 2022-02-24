@@ -3,7 +3,7 @@ import React from "react";
 import {Github, Linkedin, Java, Spring, ReactIcon, Bootstrap, Postgre} from "../components/icons";
 import pfp from "../img/pfp.png"
 
-import DarkTheme from "../components/dark-theme";
+import { Trans } from "react-i18next";
 
 class Home2 extends React.Component{
     render(){
@@ -20,7 +20,7 @@ class Home2 extends React.Component{
                                             title="Imagem de perfil">
                                         </img>
                                         <h4 className="custom-color mt-4 text-white">Alberto Pereira Felisberto</h4>
-                                        <h2 className="custom-color text-white">Desenvolvedor Full Stack</h2>
+                                        <h2 className="custom-color text-white"><Trans i18nKey="home.dev"></Trans></h2>
                                         <div className="mb-4 mt-2">
                                             <a type="button" className="btn btn-light me-1 me-lg-0" title="Linkedin" role="button"
                                             alt="Botão com link de acesso ao linkedin."
@@ -35,14 +35,12 @@ class Home2 extends React.Component{
                                         </div>
                                     </div>
                                     <div className="col-md-8 border-start border-4 rounded-3 border-white scale-up-center-content">
-                                        <h3 className="custom-title-color">Sobre:</h3>
+                                        <h3 className="custom-title-color"><Trans i18nKey="home.sobre"></Trans></h3>
                                         <div className="d-flex flex-column align-items-center">
-                                            <h5 className="custom-color custom-justify-text text-white ps-3 pe-3">Formado em Análise e Desenvolvimento de 
-                                                Sistemas pela PUC-GO. Realizei diversos projetos acadêmicos com foco em MVC e CRUD, 
-                                                utilizando a linguagem Java e seus principais frameworks. 
-                                                No momento me aprofundo em Spring Boot e React JS.</h5>
+                                            <h5 className="custom-color custom-justify-text text-white ps-3 pe-3">
+                                                <Trans i18nKey="home.sobremim"></Trans></h5>
                                         </div>
-                                        <h3 className="custom-title-color text-start mt-4 mb-3">Tecnologias:</h3>
+                                        <h3 className="custom-title-color text-start mt-4 mb-3"><Trans i18nKey="home.tecnologias"></Trans></h3>
                                         <div className="d-flex flex-md-row flex-column justify-content-evenly align-items-center 
                                                 text-center tecnology-session text-white mt-4">
                                             <div className="col border bg-light rounded-2" style={{flexGrow:'0'}}>
@@ -67,10 +65,10 @@ class Home2 extends React.Component{
                                             </div>
                                             
                                         </div>
-                                        <h3 className="custom-title-color mt-4">Certificações:</h3>
-                                        <h5 className="custom-color text-white custom-first-letter ps-3 pe-3">★ Graduação - Análise e Desenvolvimento de Sistemas</h5>
+                                        <h3 className="custom-title-color mt-4"><Trans i18nKey="home.certificacoes"></Trans></h3>
+                                        <h5 className="custom-color text-white custom-first-letter ps-3 pe-3"><Trans i18nKey="home.graduacao"></Trans></h5>
                                         <h6 className="custom-color text-white ps-3 pe-3">PUC Goiás | 2018 - 2020</h6>
-                                        <h5 className="custom-color text-white custom-first-letter ps-3 pe-3">★ Certificado - Spring Boot + React JS: Desenvolva Aplicações Web Completas</h5>
+                                        <h5 className="custom-color text-white custom-first-letter ps-3 pe-3"><Trans i18nKey="home.udemy"></Trans></h5>
                                         <h6 className="custom-color text-white ps-3 pe-3">Udemy | 2022</h6>
                                     </div>
                                 </div>

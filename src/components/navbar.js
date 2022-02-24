@@ -1,11 +1,24 @@
 import { Moon, Language } from "./icons"
 
 import { useNavigate } from "react-router-dom"
-
+import i18n from "./i18next";
+import { Trans } from "react-i18next"
+ 
 import DarkTheme from "../components/dark-theme"
 
 export default function Navbar() {
     let navigate = useNavigate();
+
+    function changeLanguageENUS () {
+        i18n.changeLanguage('en');
+        window.location.reload();
+        
+    }
+
+    function changeLanguagePTBR () {
+        i18n.changeLanguage('ptbr');
+        window.location.reload();
+    }
 
     return (
         <nav className={localStorage.getItem("theme") === "dark" ? 
@@ -29,38 +42,56 @@ export default function Navbar() {
                         {/* Conteúdo da navbar */}
                         <button className="btn btn-secondary me-1 p-1 mt-1 mt-md-0" 
                                 onClick={() => {navigate("/portfolio");}}
-                                data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} data-bs-target="#mynavbar">Portfólio</button>
+                                data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} data-bs-target="#mynavbar">
+                                <Trans i18nKey="navbar.portfolio"></Trans>
+                        </button>
                         <button className="btn btn-secondary me-1 p-1 mt-1 mt-md-0"
                                 onClick={() => {navigate("/cv");}}
-                                data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} data-bs-target="#mynavbar">Currículo</button>
+                                data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} data-bs-target="#mynavbar">
+                                <Trans i18nKey="navbar.cv"></Trans>
+                        </button>
                         <button className="btn btn-secondary me-1 p-1 mt-1 mt-md-0"
                                 onClick={() => {navigate("/contact");}}
-                                data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} data-bs-target="#mynavbar">Contato</button>
+                                data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} data-bs-target="#mynavbar">
+                                <Trans i18nKey="navbar.contato"></Trans>
+                        </button>
                         <div className="dropdown">
                             <button className="btn btn-secondary dropdown-toggle me-1 p-1 mt-1 mt-md-0 custom-button-menu-width" 
-                                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><Moon/> Tema</button>
+                                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><Moon/> 
+                                            <Trans i18nKey="navbar.tema"></Trans>
+                            </button>
                             <ul className="dropdown-menu custom-dropdown-menu-width" aria-labelledby="dropdownMenuButton1">
                                 <li><a className="dropdown-item" href="#"
                                        data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} 
-                                       data-bs-target="#mynavbar" onClick={e => DarkTheme("dark")}>Escuro</a>
+                                       data-bs-target="#mynavbar" onClick={e => DarkTheme("dark")}>
+                                       <Trans i18nKey="navbar.escuro"></Trans>
+                                    </a>
                                 </li>
                                 <li><a className="dropdown-item" href="#"
                                        data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} 
-                                       data-bs-target="#mynavbar" onClick={e => DarkTheme("light")}>Claro</a>
+                                       data-bs-target="#mynavbar" onClick={e => DarkTheme("light")}>
+                                       <Trans i18nKey="navbar.claro"></Trans>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown">
                             <button className="btn btn-secondary dropdown-toggle mt-1 mt-md-0 custom-button-menu-width" 
-                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><Language/> Idioma</button>
+                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><Language/> 
+                                    <Trans i18nKey="navbar.idioma"></Trans>
+                            </button>
                             <ul className="dropdown-menu custom-dropdown-menu-width" aria-labelledby="dropdownMenuButton1">
                                 <li><a className="dropdown-item" href="#"
                                        data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} 
-                                       data-bs-target="#mynavbar">Português</a>
+                                       data-bs-target="#mynavbar" onClick={changeLanguagePTBR}>
+                                       <Trans i18nKey="navbar.portugues"></Trans>
+                                    </a>
                                 </li>
                                 <li><a className="dropdown-item" href="#"
                                        data-bs-toggle={window.innerWidth < 760 ? "collapse" : ""} 
-                                       data-bs-target="#mynavbar">Inglês</a>
+                                       data-bs-target="#mynavbar" onClick={changeLanguageENUS}>
+                                       <Trans i18nKey="navbar.ingles"></Trans>
+                                    </a>
                                 </li>
                             </ul>
                         </div>

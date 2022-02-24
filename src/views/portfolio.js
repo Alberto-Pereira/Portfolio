@@ -6,6 +6,8 @@ import Screen_CV from "../img/screen/screen_cv.png";
 import Screen_Contact from "../img/screen/screen_contact.png";
 import Screen_Portfolio from "../img/screen/screen_portfolio.png";
 
+import { Trans } from "react-i18next";
+
 class Portfolio extends React.Component{
     render(){
         return(
@@ -16,7 +18,7 @@ class Portfolio extends React.Component{
                 <div className="d-flex flex-column">
                     <div className='card text-white bg-secondary custom-portfolio-column-margin scale-up-center-other-pages'>
                         <div className='card-header'>
-                            <h4 className='custom-card-header-text'>Portfólio – Website</h4>
+                            <h4 className='custom-card-header-text'><Trans i18nKey="portfolio.pw"></Trans></h4>
                         </div>
                         <div className='card-body pb-1 pb-md-2'>
                             <div className="flex-row">
@@ -24,13 +26,13 @@ class Portfolio extends React.Component{
                                      className="float-start me-2"/>
                                 <div className="col">
                                     <div className="row">
-                                        <h4 className="float-start">Jan 2022 – Presente</h4>
-                                        <h5 className="float-start custom-justify-text">Website contendo meus projetos.</h5>
+                                        <h4 className="float-start"><Trans i18nKey="portfolio.p1"></Trans></h4>
+                                        <h5 className="float-start custom-justify-text"><Trans i18nKey="portfolio.p1desc"></Trans></h5>
                                     </div>
                                     <div className="row-md justify-content-end">
                                         <button className="btn custom-contact-section-btn custom-btn-size float-end" 
                                                 data-bs-toggle="modal" 
-                                                data-bs-target="#staticBackdrop">Saiba mais
+                                                data-bs-target="#staticBackdrop"><Trans i18nKey="portfolio.saibamais"></Trans>
                                         </button>
                                     </div>                                    
                                 </div>
@@ -45,7 +47,7 @@ class Portfolio extends React.Component{
                     <div className="modal-dialog modal-dialog-scrollable modal-fullscreen">
                         <div className="modal-content bg-secondary w-100">
                             <div className="modal-header">
-                                <h4 className="modal-title text-white" id="staticBackdropLabel">Portfólio – Website</h4>
+                                <h4 className="modal-title text-white" id="staticBackdropLabel"><Trans i18nKey="portfolio.pw"></Trans></h4>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             {/* 
@@ -93,27 +95,22 @@ class Portfolio extends React.Component{
                                 Descrição do projeto
                                 */}
                                 <div className="col-10 offset-1 mt-4">
-                                    <h4 className="text-white">💻 Sobre:</h4>
-                                    <h5 className="text-white text-justify">Website construído com React JS e Bootstrap para apresentar meus 
-                                            trabalhos concluídos e suas etapas de desenvolvimento. A aplicação também conta com 
-                                            opções de contato e acessibilidade.</h5>
-                                    <h4 className="text-white mt-4">🌌 Estrutura:</h4>                                   
-                                    <h5 className="text-white">&emsp;🔰 Home:</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;Página inicial do website.</h5>
-                                    <h5 className="text-white">&emsp;🔰 Portfólio:</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;Página com informações sobre meus projetos. 
-                                            É possível aprofundar os detalhes clicando em "Saiba mais".</h5>
-                                    <h5 className="text-white">&emsp;🔰 Currículo:</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;Página com opção de baixar currículo em dois idiomas.</h5>
-                                    <h5 className="text-white">&emsp;🔰 Contato:</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;Página onde é possível escrever uma mensagem.</h5>
-                                    <h5 className="text-white">&emsp;🔰 Tema:</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;Botão para escolher os temas do website. 
-                                            Tema claro e escuro estão disponíveis.</h5>
-                                    <h5 className="text-white">&emsp;🔰 Idioma:</h5>
-                                    <h5 className="text-white">&emsp;&emsp;&emsp;Botão para escolher os idiomas do website. 
-                                            Português e inglês estão disponíveis.</h5>
-                                    <h5 className="text-white">&emsp;🎨 Front-End:</h5>
+                                    <h4 className="text-white"><Trans i18nKey="projeto01modal.sobre"></Trans></h4>
+                                    <h5 className="text-white text-justify"><Trans i18nKey="projeto01modal.sobredesc"></Trans></h5>
+                                    <h4 className="text-white mt-4"><Trans i18nKey="projeto01modal.estrutura"></Trans></h4>                                   
+                                    <h5 className="text-white">&emsp;<Trans i18nKey="projeto01modal.home"></Trans></h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;<Trans i18nKey="projeto01modal.homedesc"></Trans></h5>
+                                    <h5 className="text-white">&emsp;<Trans i18nKey="projeto01modal.portfolio"></Trans></h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;<Trans i18nKey="projeto01modal.portfoliodesc"></Trans></h5>
+                                    <h5 className="text-white">&emsp;<Trans i18nKey="projeto01modal.cv"></Trans></h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;<Trans i18nKey="projeto01modal.cvdesc"></Trans></h5>
+                                    <h5 className="text-white">&emsp;<Trans i18nKey="projeto01modal.contato"></Trans></h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;<Trans i18nKey="projeto01modal.contatodesc"></Trans></h5>
+                                    <h5 className="text-white">&emsp;<Trans i18nKey="projeto01modal.tema"></Trans></h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;<Trans i18nKey="projeto01modal.temadesc"></Trans></h5>
+                                    <h5 className="text-white">&emsp;<Trans i18nKey="projeto01modal.idioma"></Trans></h5>
+                                    <h5 className="text-white">&emsp;&emsp;&emsp;<Trans i18nKey="projeto01modal.idiomadesc"></Trans></h5>
+                                    <h5 className="text-white">&emsp;<Trans i18nKey="projeto01modal.frontend"></Trans></h5>
                                     <h5 className="text-white">&emsp;&emsp;&emsp;- React JS.</h5>
                                     <h5 className="text-white">&emsp;&emsp;&emsp;- Bootstrap.</h5>
                                     <a href="https://github.com/Alberto-Pereira/Portfolio" style={{textDecoration:'none'}} 
@@ -122,12 +119,14 @@ class Portfolio extends React.Component{
                                     </a>                                   
                                     <a href="https://portfolio-alberto-pereira.herokuapp.com/" style={{textDecoration:'none'}} 
                                        target="_blank" title="Clique para acessar" alt="Link de acesso ao projeto no heroku. Você pode testar a aplicação online.">
-                                        <h4 className="text-white mt-4">✅ Portfólio</h4>
+                                        <h4 className="text-white mt-4"><Trans i18nKey="projeto01modal.portfoliodesc02"></Trans></h4>
                                     </a>
                                 </div>
                             </div>
                             <div className="modal-footer">
-                                <button type="button" className="btn custom-contact-section-btn" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" className="btn custom-contact-section-btn" data-bs-dismiss="modal">
+                                    <Trans i18nKey="projeto01modal.fechar"></Trans>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -139,9 +138,3 @@ class Portfolio extends React.Component{
 
 export default Portfolio;
 
-// <!-- Button trigger modal -->
-// <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-//   Launch static backdrop modal
-// </button>
-
-// <!-- Modal -->
