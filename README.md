@@ -29,7 +29,7 @@ git clone https://github.com/Alberto-Pereira/Portfolio.git
 ```
 ## 🔥 Como executar: <a name="executar"></a>
 
-🛑 Instalar as dependências
+🛑 Instalar as dependências:
 ```bash
 npm install
 ```
@@ -38,7 +38,7 @@ npm install
 yarn install
 ```
 
-✅ Executar a aplicação
+✅ Executar a aplicação:
 ```bash
 npm start
 ```
