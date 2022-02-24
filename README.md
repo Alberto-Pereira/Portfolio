@@ -24,7 +24,7 @@ Website construído com React JS e Bootstrap para apresentar meus trabalhos conc
 
 ## ⚡ Como baixar a aplicação<a name="baixar"></a>
 
-<pre>git clone https://github.com/Alberto-Pereira/Portfolio.git</pre>
+```bashgit clone https://github.com/Alberto-Pereira/Portfolio.git```
 
 ## 🔥 Como executar a aplicação<a name="executar"></a>
 
