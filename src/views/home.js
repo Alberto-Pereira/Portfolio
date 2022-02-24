@@ -20,7 +20,7 @@ class Home2 extends React.Component{
                                             title="Imagem de perfil">
                                         </img>
                                         <h4 className="custom-color mt-4 text-white">Alberto Pereira Felisberto</h4>
-                                        <h2 className="custom-color text-white">Programador Full Stack</h2>
+                                        <h2 className="custom-color text-white">Desenvolvedor Full Stack</h2>
                                         <div className="mb-4 mt-2">
                                             <a type="button" className="btn btn-light me-1 me-lg-0" title="Linkedin" role="button"
                                             alt="Botão com link de acesso ao linkedin."
