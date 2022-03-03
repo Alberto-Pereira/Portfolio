@@ -16,7 +16,7 @@ class Portfolio extends React.Component{
             */            
             <div className="container-fluid min-vh-100">
                 <div className="d-flex flex-column">
-                    <div className='card text-white bg-secondary custom-portfolio-column-margin scale-up-center-other-pages'>
+                    <div className='card text-white bg-secondary custom-portfolio-column-margin scale-up-center-other-pages custom-card-border-color'>
                         <div className='card-header'>
                             <h4 className='custom-card-header-text'><Trans i18nKey="portfolio.pw"></Trans></h4>
                         </div>

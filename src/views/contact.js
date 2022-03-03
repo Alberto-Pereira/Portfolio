@@ -77,7 +77,7 @@ class Contact extends React.Component{
                 <div className='row'>
                     <div className='col-md-8 col-lg-4 offset-md-2 offset-lg-4'>
                         <div className='d-flex flex-column align-content-center justify-content-center min-vh-100'>
-                            <div className='card text-white bg-secondary scale-up-center-other-pages'>
+                            <div className='card text-white bg-secondary scale-up-center-other-pages custom-card-border-color'>
                                 <div className='card-header'>
                                     <h4 className='custom-card-header-text'><Trans i18nKey="contato.ajuda"></Trans></h4>
                                 </div>

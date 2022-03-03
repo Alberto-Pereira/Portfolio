@@ -20,7 +20,7 @@ export function Java(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"
              width="80" height="80" 
-             className="custom-image-color" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             className="custom-image-color custom-icon-margin" alt=""
              alt="Logotipo do Java" title="Java"/>
     )
 }
@@ -29,7 +29,7 @@ export function Spring(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain.svg" 
              width="80" height="80" 
-             className="" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             className="custom-icon-plus-size" alt=""
              alt="Logotipo do Spring Boot" title="Spring Boot"/>
             
     )
@@ -39,7 +39,7 @@ export function ReactIcon(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
              width="80" height="80" 
-             className="custom-image-color" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             className="custom-image-color custom-icon-margin" alt="" 
              alt="Logotipo do React JS" title="React JS"/>
             
     )
@@ -49,7 +49,7 @@ export function Bootstrap(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
              width="80" height="80" 
-             className="custom-image-color" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             className="custom-image-color custom-icon-margin" 
              alt="Logotipo do Bootstrap" title="Bootstrap"/>
             
     )
@@ -59,7 +59,7 @@ export function Postgre(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" 
              width="80" height="80" 
-             className="custom-image-color" alt="" style={{marginTop:'0.5rem', marginLeft:'1.7rem', marginRight:'1.7rem'}}
+             className="custom-image-color custom-icon-plus-size" alt="" 
              alt="Logotipo do Postgre SQL" title="Postgre SQL"/>
         
     )

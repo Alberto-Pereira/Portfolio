@@ -123,6 +123,10 @@
 }
 
 /* Home */
+.custom-card-border-color{
+    border: 2px solid #f7f7f9 !important;
+}
+
 .custom-quote-margin{
     padding-top: 6rem;
     margin-bottom: 4rem;
@@ -135,6 +139,89 @@
 .custom-title-color{
     color: #ffffff !important;
     font-weight: 500;
+}
+
+@media(min-width: 0) and (max-width: 374px){
+    .custom-name-text-size{
+        font-size: 1rem;
+    }
+    .custom-text-size{
+        font-size: 1.2rem;
+    }
+    .custom-margin-top{
+        margin-top: 4rem;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 424px){
+    .custom-name-text-size{
+        font-size: 1.4rem;
+    }
+    .custom-text-size{
+        font-size: 1.5rem;
+    }
+    .custom-margin-top{
+        margin-top: 4rem;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 767px){
+    .custom-name-text-size{
+        font-size: 1.5rem;
+    }
+    .custom-text-size{
+        font-size: 1.6rem;
+    }
+    .custom-margin-top{
+        margin-top: 4rem;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+    .custom-name-text-size{
+        font-size: 0.7rem;
+    }
+    .custom-text-size{
+        font-size: 0.8rem;
+    }
+    .custom-margin-top{
+        margin-top: 4rem;
+    }
+}
+
+@media(min-width: 1024px) and (max-width: 1279px){
+    .custom-name-text-size{
+        font-size: 1rem;
+    }
+    .custom-text-size{
+        font-size: 1.2rem;
+    }
+    .custom-margin-top{
+        margin-top: 4rem;
+    }
+}
+
+@media(min-width: 1279px) and (max-width: 1439px){
+    .custom-text-size{
+        vertical-align: middle;
+        font-size: x-large;
+    }
+    .custom-name-text-size{
+        font-size: large;
+    }
+    .custom-margin-top{
+        margin-top: 1rem;
+    }
+}
+
+@media(min-width: 1440px) and (max-width: 1599px){
+    .custom-text-size{
+        vertical-align: middle;
+        font-size: 28px;
+    }
+    .custom-name-text-size{
+        font-size: x-large;
+    }
 }
 
 /* Portfolio */
@@ -158,6 +245,71 @@
 .custom-text-color{
     color: black !important;
     border-color: #F3969A !important;
+}
+
+@media(min-width: 0) and (max-width: 1279px){
+    .custom-icon-margin{
+        margin-top: 0.5rem ;
+        margin-left: 1.5rem ;
+        margin-right: 1.5rem;
+    }
+    .custom-icon-plus-size{
+        margin-top: 0.5rem ;
+        margin-left: 1.5rem ;
+        margin-right: 1.5rem;
+    }
+}
+
+@media(min-width: 1280px) and (max-width: 1439px){
+    .custom-icon-margin{
+        margin-top: 0.5rem ;
+        margin-left: 0.5rem ;
+        margin-right: 0.5rem;
+    }
+    .custom-icon-plus-size{
+        margin-top: 0.5rem ;
+        margin-left: 1.5rem ;
+        margin-right: 1.5rem;
+    }
+}
+
+@media(min-width: 1440px) and (max-width: 1599px){
+    .custom-icon-margin{
+        margin-top: 0.5rem ;
+        margin-left: 0.8rem ;
+        margin-right: 0.8rem;
+    }
+    .custom-icon-plus-size{
+        margin-top: 0.5rem ;
+        margin-left: 1.7rem ;
+        margin-right: 1.7rem;
+    }
+}
+
+@media(min-width: 1600px) and (max-width: 1699px){
+    .custom-icon-margin{
+        margin-top: 0.5rem ;
+        margin-left: 1.5rem ;
+        margin-right: 1.5rem;
+    }
+    .custom-icon-plus-size{
+        margin-top: 0.5rem ;
+        margin-left: 1.5rem ;
+        margin-right: 1.5rem;
+    }
+}
+
+@media(min-width: 1700px){
+    .custom-icon-margin{
+        margin-top: 0.5rem ;
+        margin-left: 1.7rem ;
+        margin-right: 1.7rem;
+    }
+    .custom-icon-plus-size{
+        margin-top: 0.5rem ;
+        margin-left: 1.7rem ;
+        margin-right: 1.7rem;
+    }
 }
 
 /* Animations */
