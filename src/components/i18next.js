@@ -68,6 +68,9 @@ i18n
                     contato: {
                         ajuda: 'Como posso ajudar?',
                         enviar: 'Enviar'
+                    },
+                    error: {
+                        pagina: 'Essa página não existe!'
                     }
                 }
             },
@@ -128,6 +131,9 @@ i18n
                     contato: {
                         ajuda: 'How can I help?',
                         enviar: 'Send'
+                    },
+                    error: {
+                        pagina: 'This page does not exist!'
                     }
                 }
             }

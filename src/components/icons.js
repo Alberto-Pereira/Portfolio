@@ -20,7 +20,7 @@ export function Java(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"
              width="80" height="80" 
-             className="custom-image-color custom-icon-margin" alt=""
+             className="custom-image-color custom-icon-margin"
              alt="Logotipo do Java" title="Java"/>
     )
 }
@@ -29,7 +29,7 @@ export function Spring(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain.svg" 
              width="80" height="80" 
-             className="custom-icon-plus-size" alt=""
+             className="custom-icon-plus-size"
              alt="Logotipo do Spring Boot" title="Spring Boot"/>
             
     )
@@ -39,7 +39,7 @@ export function ReactIcon(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
              width="80" height="80" 
-             className="custom-image-color custom-icon-margin" alt="" 
+             className="custom-image-color custom-icon-margin"
              alt="Logotipo do React JS" title="React JS"/>
             
     )
@@ -59,7 +59,7 @@ export function Postgre(){
     return(
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" 
              width="80" height="80" 
-             className="custom-image-color custom-icon-plus-size" alt="" 
+             className="custom-image-color custom-icon-plus-size" 
              alt="Logotipo do Postgre SQL" title="Postgre SQL"/>
         
     )

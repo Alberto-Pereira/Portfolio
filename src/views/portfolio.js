@@ -1,6 +1,5 @@
 import React from "react";
 
-// Capturas de tela das páginas do website
 import Screen_Home from "../img/screen/screen_home.png";
 import Screen_CV from "../img/screen/screen_cv.png";
 import Screen_Contact from "../img/screen/screen_contact.png";
